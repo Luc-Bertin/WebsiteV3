@@ -12,11 +12,22 @@ hr {
 
 .bg-custom {
   background-color: #c72c41;
-
 }
 
-.container {
+.color-me{
+    color:white;
+}
 
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-weight:700;
+}
+
+.nav-item {
+  padding: 0 1rem;
 }
 
 a {
@@ -33,4 +44,8 @@ a:hover {
   position: relative;
   bottom: 10px;
   left: 20px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
 }
