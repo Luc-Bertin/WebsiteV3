@@ -40,12 +40,6 @@ a:hover {
 }
 
 
-.imgresize {
-  position: relative;
-  bottom: 10px;
-  left: 20px;
-}
-
 .container-fluid {
   padding: 0 10%;
 }
