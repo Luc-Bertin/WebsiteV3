@@ -11,7 +11,7 @@ hr {
 }
 
 .bg-custom {
-  background-color: #c72c41;
+
 }
 
 .color-me{
@@ -47,5 +47,5 @@ a:hover {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 0 10%;
 }
