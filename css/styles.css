@@ -87,28 +87,17 @@ hr {
   margin: 2rem 0;
 }
 
-.test {
-  display: inline-block;
 
-}
-.item_card {
-  margin: auto auto;
+/* .item_card {
   width: 50%;
   height: 50%;
+} */
+
+.carousel-item {
+  padding: 7% 15%; 
 }
 
-
-
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 25px;
-  color: black;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 25px;
-  color: black;
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
