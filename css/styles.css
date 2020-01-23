@@ -58,15 +58,17 @@ img.center {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: white;
-  border-width: 5px;
+  border-color: black;
+  border-width: 1px;
   width: 5%;
+
 }
 
 /* Projects section */
 #projects {
-  padding: 7% 15%;
-  background-color: #F3F3F3;
+
+  padding: 15% 15%;
+  background-color: white;
 }
 
 .addspace{
@@ -74,5 +76,24 @@ hr {
 }
 
 .carousel-item {
-  height: 500px;
+  height: 220px;
+}
+
+.stick_to_top {
+  position: fixed;
+}
+
+#carouselExampleIndicators {
+  margin: 2rem 0;
+}
+
+.item_card {
+  margin: auto auto;
+  width: 50%;
+  height: 50%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
