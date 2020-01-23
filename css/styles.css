@@ -33,20 +33,12 @@ a:hover {
   text-align: justify;
 }
 
-.addpadding {
+div.heading a {
   padding: 1%;
 }
 
 .img-fluid {
   max-width: 40%;
-
-}
-
-img.center {
-  /* display: block; */
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 .center {
@@ -66,28 +58,34 @@ hr {
 
 /* Projects section */
 #projects {
-
   padding: 15% 15%;
   background-color: white;
 }
 
-.addspace{
+.columns_bio{
   margin-bottom: 2.5rem;
 }
 
-
-.stick_to_top {
-  position: fixed;
+h3 {
+  text-align: center;
+  margin: 0;
 }
 
-#carouselExampleIndicators {
-  margin: 2rem 0;
+/*  Carrousel */
+.carousel-indicators li {
+    background-color: darkgrey;
 }
-
+.carousel-indicators .active {
+    background-color: black;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 10%;
+}
 
 .item_card {
   text-align: center;
-  height: 18rem;
+  height: 310px;
 }
 .card-header {
   font-weight: 600;
