@@ -75,9 +75,6 @@ hr {
   margin-bottom: 2.5rem;
 }
 
-.carousel-item {
-  height: 220px;
-}
 
 .stick_to_top {
   position: fixed;
@@ -88,13 +85,16 @@ hr {
 }
 
 
-/* .item_card {
-  width: 50%;
-  height: 50%;
-} */
+.item_card {
+  text-align: center;
+  height: 18rem;
+}
+.card-header {
+  font-weight: 600;
+}
 
 .carousel-item {
-  padding: 7% 15%; 
+  padding: 7% 15%;
 }
 
 .carousel-control-next,
