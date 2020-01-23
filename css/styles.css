@@ -102,3 +102,7 @@ hr {
   text-align: center;
   margin-top: 2rem;
 }
+
+.spacing {
+  margin: 1rem 1rem 1rem auto ;
+}

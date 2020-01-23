@@ -20,118 +20,119 @@
     <!-- Nav bar -->
     <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-          <ul class="navbar-nav w-100 justify-content-center">
-              <li class="nav-item active">
-                  <a class="nav-link" href="">Contact</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="">Projects</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="">Other</a>
-              </li>
-          </ul>
+        <ul class="navbar-nav w-100 justify-content-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projects/index.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Other</a>
+          </li>
+        </ul>
       </div>
-  </nav>
-</section>
+    </nav>
+  </section>
 
 
-<!--  INTRODUCTION -->
+  <!--  INTRODUCTION -->
 
-<section id="bio">
-  <div class="container">
-    <div class="row">
-      <!--<div class="col-lg-2 spacingplease d-md-none d-lg-none"></div>-->
-      <div class="col-lg-7 col-md-6">
-        <img src="./imgs/me2.png" alt="profile picture" class="img-fluid center">
-        <div class="heading">
-          <h1 class="titlename">Luc Bertin</h1>
-          <a class="fab fa-linkedin-in" style="font-size: 1.25rem;" href="https://www.linkedin.com/in/luc-b-291904ab/"></a>
-          <a class="fab fa-github" href="https://github.com/Luc-Bertin/TDs_ESILV/commits?author=Luc-Bertin"></a>
-          <a class="fab fa-medium-m" href="https://medium.com/@lucbtn"></a>
-          <br>
-          <i class="fas fa-map-marker-alt" href=""> Paris, FR.</i>
+  <section id="bio">
+    <div class="container">
+      <div class="row">
+        <!--<div class="col-lg-2 spacingplease d-md-none d-lg-none"></div>-->
+        <div class="col-lg-7 col-md-6">
+          <img src="./imgs/me2.png" alt="profile picture" class="img-fluid center">
+          <div class="heading">
+            <h1 class="titlename">Luc Bertin</h1>
+            <a class="fab fa-linkedin-in" style="font-size: 1.25rem;" href="https://www.linkedin.com/in/luc-b-291904ab/"></a>
+            <a class="fab fa-github" href="https://github.com/Luc-Bertin/TDs_ESILV/commits?author=Luc-Bertin"></a>
+            <a class="fab fa-medium-m" href="https://medium.com/@lucbtn"></a>
+            <br>
+            <i class="fas fa-map-marker-alt" href=""> Paris, FR.</i>
+          </div>
+          <!-- use <em> tag or <strong> instead of <i> or <b> tags -->
+          <hr>
+          <p class="justify">Freelance and graduate engineering student with proficiency in some programming languages (Python, R, a little bit of C#, C) and great interest in Data Science with AI.
+            On my GitHub, you can check out contents I have created and showcase to students to illustrate ML concepts, as part of my current position as teacher assistant.
+            These Jupyter notebooks cover web-scrapping (selenium, beautifulsoup, apis), data manipulation and data wrangling using Pandas, data preparation for Deep Learning using Numpy, introduction to neural networks architectures (simple
+            perceptron, MLP, CNN, RNN/LSTM, etc.) and Keras library, understanding of well-known ML models with respect to bias-variance trade-off.</p>
+          <hr>
+
+          <h3 class="mid_heading">Projects</h3>
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active " style="background-color: white;">
+                <div class="card item_card">
+                  <div class="card-header">
+                    Coding a perceptron with numpy
+                  </div>
+                  <div class="card-body">
+                    <img src="./imgs/regression_animation.gif" alt="" width="100%" height="100%">
+                  </div>
+                </div>
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item">
+                <div class="card item_card">
+                  <div class="card-header">
+                    Introduction to Sklearn
+                  </div>
+                  <div class="card-body">
+                    <img src="./imgs/img_bootstrap.png" alt="" width="100%" height="100%">
+                  </div>
+                </div>
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item">
+                <div class="card item_card">
+                  <div class="card-header">
+                    Gradient-Boosting understanding
+                  </div>
+                  <div class="card-body">
+                    <img src="./imgs/gradient_boosting_animation.gif" alt="" width="100%" height="100%">
+                  </div>
+                </div>
+                <!--  <img src="..." class="d-block w-100" alt="..."> -->
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
-        <!-- use <em> tag or <strong> instead of <i> or <b> tags -->
-        <hr>
-        <p class="justify">Freelance and graduate engineering student with proficiency in some programming languages (Python, R, a little bit of C#, C) and great interest in Data Science with AI.
-        On my GitHub, you can check out contents I have created and showcase to students to illustrate ML concepts, as part of my current position as teacher assistant.
-        These Jupyter notebooks cover web-scrapping (selenium, beautifulsoup, apis), data manipulation and data wrangling using Pandas, data preparation for Deep Learning using Numpy, introduction to neural networks architectures (simple perceptron, MLP, CNN, RNN/LSTM, etc.) and Keras library, understanding of well-known ML models with respect to bias-variance trade-off.</p>
-        <hr>
 
-      <h3 class="mid_heading">Projects</h3>
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="false" >
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active " style="background-color: white;">
-            <div class="card item_card">
-              <div class="card-header">
-                    Header
-              </div>
-              <div class="card-body">
-                    body
-              </div>
-            </div>
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-          </div>
-          <div class="carousel-item">
-            <div class="card item_card">
-              <div class="card-header">
-                    Header
-              </div>
-              <div class="card-body">
-                    body
-              </div>
-            </div>
-            <!-- <img src="..." class="d-block w-100" alt="..."> -->
-          </div>
-          <div class="carousel-item">
-            <div class="card item_card">
-              <div class="card-header">
-                    Header
-              </div>
-              <div class="card-body">
-                    body
-              </div>
-            </div>
-            <!--  <img src="..." class="d-block w-100" alt="..."> -->
-          </div>
+
+
+
+        <div class="col-lg-5 col-md-6">
+          <div class="github-widget center" data-username="luc-bertin" style="position: sticky; top:5rem;"></div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-      </div>
+  </section>
 
 
 
-
-
-      <div class="col-lg-5 col-md-6">
-        <div class="github-widget center" data-username="luc-bertin" style="position: sticky; top:5rem;"></div>
-      </div>
-    </div>
-</section>
-
-
-
-<!--  Section Footer -->
-<section id="footer">
-  <p>© Copyright 2020 — Luc Bertin</p>
-</section>
+  <!--  Section Footer -->
+  <section id="footer">
+    <p>© Copyright 2020 — Luc Bertin</p>
+  </section>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
