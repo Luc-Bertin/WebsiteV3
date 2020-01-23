@@ -52,3 +52,8 @@ a:hover {
 .addpadding {
   padding: 1%
 }
+
+.img-fluid {
+  max-width: 40%;
+
+}
