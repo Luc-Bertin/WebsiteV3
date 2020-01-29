@@ -1,3 +1,18 @@
+/* Header */
+#title {
+  margin-bottom: 2.5rem;
+}
+
+/*  Navbar  */
+.nav-item {
+  padding: 0.25rem 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+/* .navbar {
+  margin-bottom: 1.25rem;
+} */
+
 /* General considerations */
 body {
   font-family: 'Merriweather', serif;
@@ -12,14 +27,6 @@ a:hover {
   color: #c72c41;
 }
 
-/*  Navbar  */
-.nav-item {
-  padding: 0.25rem 2rem;
-  text-align: center;
-}
-.navbar {
-  margin-bottom: 1.25rem;
-}
 
 /* Bio Section */
 .titlename {
@@ -100,8 +107,9 @@ hr {
   font-family: sans-serif;
   color: black;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
+
 
 .spacing {
   margin: 1rem 1rem 1rem auto ;
