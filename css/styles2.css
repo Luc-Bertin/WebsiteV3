@@ -5,3 +5,9 @@ img#profile {
     margin-right: 2%;
     width: 15%;
 }
+
+footer {
+	display: block;
+	width: 50%
+	margin: 3% 10% ;
+}
