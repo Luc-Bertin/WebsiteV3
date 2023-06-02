@@ -15,7 +15,7 @@
 
 /* General considerations */
 body {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 a {
@@ -26,7 +26,6 @@ a:hover {
   text-decoration: none;
   color: #c72c41;
 }
-
 
 /* Bio Section */
 .titlename {
@@ -111,5 +110,23 @@ hr {
 }
 
 .spacing {
-  margin: 1rem 1rem 1rem auto ;
+  margin: 1rem 1rem 1rem auto;
+}
+
+#bio {
+  margin-top: 2%;
+}
+
+.fab.fa-linkedin-in {
+  font-size: 1.25rem;
+}
+.center-div {
+  padding: 0 20%;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.github-widget {
+  position: sticky;
+  top: 5rem;
 }
